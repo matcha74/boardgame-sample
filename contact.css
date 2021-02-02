@@ -1,0 +1,61 @@
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    padding-top: 30px;
+}
+
+.contact-mail {
+    width: 50%;
+	padding: 8px 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+	border: 1px solid #d0d5d8;
+	border-radius: 3px
+}
+
+textarea {
+    width: 50%;
+    margin:10px 0 30px 0;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #dee7ec;
+}
+
+.must {
+    color: #fff;
+    margin-right: 10px;
+    padding: 6px 10px;
+    background: #ff6347;
+    border-radius: 20px;
+}
+
+.free {
+    color: #fff;
+    margin-right: 10px;
+    padding: 6px 10px;
+    background: #424242;
+    border-radius: 20px;
+}
+
+input[value=送信] {
+    width: 20%;
+	height: 40px;
+	background: #5dca88;
+	color: #fff;
+	font-size: 20px;
+	/*font-weight: 600;*/
+}
