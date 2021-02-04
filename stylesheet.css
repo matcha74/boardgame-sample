@@ -160,6 +160,14 @@ header {
 
 .about-img img {
   border-radius: 20px;
+  opacity: 0;
+  transform : translate(0, 50px);
+  transition : all 1500ms;
+}
+
+.about-img img.scrollin{
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
 .about-text {
