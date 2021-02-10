@@ -69,11 +69,49 @@ header {
     margin-bottom: 50px;
 }
 
+.company-info-wrapper {
+  padding-top: 50px;
+}
+
 .company-info {
     float: left;
     width: 50%;
 }
 
+.company-access {
+    float: left;
+    width: 50%;
+}
+
+.company-staff {
+  float: left;
+  width: 25%;
+}
+
+.company-staff img {
+  width: 245px;
+  height: 160px;
+}
+
 .clear {
     clear: left;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.footer-icon {
+  color: black;
 }
