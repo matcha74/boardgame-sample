@@ -73,6 +73,19 @@ header {
     padding-top: 50px;
 }
 
+.services-contents {
+  float:left;
+  width:50%;
+  text-align: center;
+}
+
+.services-wrapper img {
+  width: 500px;
+  height: 350px;
+  padding-bottom: 20px;
+  filter:brightness(50%);
+}
+
 footer img {
   width: 125px;
 }
@@ -90,4 +103,8 @@ footer {
 
 .footer-icon {
   color: black;
+}
+
+.clear {
+  clear: left;
 }
