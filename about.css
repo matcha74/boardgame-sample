@@ -122,9 +122,45 @@ header {
   width: 25%;
 }
 
-.company-staff img {
-  width: 245px;
-  height: 160px;
+.staff-position {
+  color: navy;
+}
+
+.staff-name {
+  margin-top: -10px;
+  color: #555;
+}
+
+.member1 {
+  background-image: url(img/member1.jpg);
+  width: 260px;
+  height: 200px;
+  border-radius: 50%;
+  background-position: center center;
+}
+
+.member2 {
+  background-image: url(img/member2.jpg);
+  width: 260px;
+  height: 200px;
+  border-radius: 50%;
+  background-position: center center;
+}
+
+.member3 {
+  background-image: url(img/member3.jpg);
+  width: 260px;
+  height: 200px;
+  border-radius: 50%;
+  background-position: center center;
+}
+
+.member4 {
+  background-image: url(img/member4.jpg);
+  width: 260px;
+  height: 200px;
+  border-radius: 50%;
+  background-position: center center;
 }
 
 .clear {
