@@ -23,7 +23,7 @@ header {
     background-color: rgba(34,49,52,0.9);
     position :fixed;
     top: 0;
-    z-index: 10;
+    z-index: 200;
 }
 
   .header-logo {
@@ -77,13 +77,53 @@ header {
   float:left;
   width:50%;
   text-align: center;
+  position: relative;
 }
 
-.services-wrapper img {
+.services-contents img {
   width: 500px;
   height: 350px;
   padding-bottom: 20px;
   filter:brightness(50%);
+}
+
+.services-contents-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding-bottom: 50px;
+  z-index: 100;
+  color:white;
+  font-weight: bold;
+  font-size: 25px;
+
+  opacity: 0;
+  transform : translate(0, -100%);
+  transition : all 1500ms;
+}
+
+.services-contents-title.scrollin {
+  opacity: 1;
+  transform: translate(-50%, -100%);
+}
+
+.services-contents-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+
+  opacity: 0;
+  transform : translate(0, 0);
+  transition : all 1500ms;
+}
+
+.services-contents-text.scrollin {
+  opacity: 1;
+  transform: translate(-50%, 0);
 }
 
 footer img {
