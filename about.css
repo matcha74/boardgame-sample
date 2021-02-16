@@ -83,6 +83,10 @@ header {
     width: 50%;
 }
 
+.company-staff-contents {
+  text-align: center;
+}
+
 .company-staff {
   float: left;
   width: 25%;
