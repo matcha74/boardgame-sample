@@ -64,18 +64,47 @@ header {
 
 .section-title {
     border-bottom: 2px solid #dee7ec;
-    font-size: 28px;
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #444;
     padding-bottom: 15px;
+    margin-top: 50px;
     margin-bottom: 50px;
+    text-align: center;
+}
+
+.sub-section-title-parent {
+  text-align: center;
+}
+
+.sub-section-title {
+  color: #444;
+  font-size: 28px;
+  border-bottom: 2px solid #dbb31c;
+  display: inline-block;
 }
 
 .company-info-wrapper {
   padding-top: 50px;
 }
 
+.company-info-contents {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
 .company-info {
     float: left;
     width: 50%;
+}
+
+.logo {
+  text-align: center;
+}
+
+.company-access-contents {
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .company-access {
@@ -84,6 +113,7 @@ header {
 }
 
 .company-staff-contents {
+  padding-top: 20px;
   text-align: center;
 }
 
