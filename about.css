@@ -98,8 +98,33 @@ header {
     width: 50%;
 }
 
+.company-info img {
+  width: 350px;
+  margin-left: -10%;
+}
+
 .logo {
   text-align: center;
+}
+
+.company-info-detail {
+  margin-left: -15%;
+}
+
+dt {
+  float: left ;
+  clear: left ;
+  margin-right: 10px ;
+  margin-bottom: 20px;
+  width: 120px ;
+  font-size: 18px;
+}
+
+dd {
+  float: left ;
+  margin-left: 20px ;
+  margin-bottom: 20px;
+  font-size: 18px;
 }
 
 .company-access-contents {
@@ -110,6 +135,14 @@ header {
 .company-access {
     float: left;
     width: 50%;
+}
+
+.company-access-contents iframe {
+  margin-left: 20%;
+}
+
+.company-access-detail {
+  margin-left: -15%;
 }
 
 .company-staff-contents {
