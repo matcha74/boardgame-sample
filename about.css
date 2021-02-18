@@ -218,3 +218,62 @@ footer {
 .footer-icon {
   color: black;
 }
+
+header .menu-icon {
+  display: none;
+}
+
+@media (max-width: 670px) {
+
+  .header-right {
+    display: none;
+  }
+
+  header .menu-icon {
+    display: block;
+  }
+
+  .company-info {
+    width: 100%;
+  }
+
+  .company-info-contents {
+    padding-top: 0;
+  }
+
+  .company-info img {
+    margin-left: 0;
+  }
+
+  .company-info-detail {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  dt {
+    font-size: 16px;
+  }
+
+  dd {
+    font-size: 16px;
+  }
+
+  .company-access {
+    width: 100%;
+  }
+
+  .company-access-contents iframe {
+    margin-left: 0;
+    padding-bottom: 20px;
+  }
+
+  .company-access-detail {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .company-staff {
+    width: 100%;
+  }
+
+}
