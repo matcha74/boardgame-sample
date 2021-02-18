@@ -9,6 +9,7 @@
   
   a {
     text-decoration: none;
+    color: #fff;
   }
 
 .container {
@@ -223,6 +224,10 @@ header .menu-icon {
   display: none;
 }
 
+.sp-nav {
+  display: none;
+}
+
 @media (max-width: 670px) {
 
   .header-right {
@@ -275,5 +280,49 @@ header .menu-icon {
   .company-staff {
     width: 100%;
   }
+
+  .sp-nav {
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    transition: all .2s ease-in-out;
+    opacity: 0;
+    transform: translateY(-100%);
+ }
+
+  .sp-nav ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .sp-nav li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .sp-nav li span {
+    font-size: 15px;
+    color: #fff;
+  }
+
+  .sp-nav li a, .sp-nav li span {
+    display: block;
+    padding: 20px 0;
+  }
+
+  .toggle {
+    transform: translateY( 0 );
+    opacity: 1;
+ }
 
 }
