@@ -267,9 +267,30 @@ header .menu-icon {
     width: 100%;
   }
 
+  /*
   .company-access-contents iframe {
     margin-left: 0;
     padding-bottom: 20px;
+  }
+  */
+
+  .company-map {
+      position:relative;
+      width:100%;
+      height:0;
+      padding-top:75%;
+  }
+
+  .company-map iframe{
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+  }
+
+  .company-access-contents iframe {
+      margin-left: 0px;
   }
 
   .company-access-detail {
