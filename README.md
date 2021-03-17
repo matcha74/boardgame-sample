@@ -1,1 +1,1 @@
-# prog8-sample
+# boardgame-sample
