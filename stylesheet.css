@@ -370,13 +370,13 @@ footer {
   .top-wrapper .btn {
     width: 100%;
   }
-
+/*
   .top-wrapper img {
     width: 400px;
     height: 100px;
     text-align: center;
   }
-
+*/
   .twitter {
     margin-top: 10px;
   }
@@ -396,6 +396,7 @@ footer {
   }
 
   .top-logo {
+    width: 350px;
     margin-bottom: 20px;
   }
 
