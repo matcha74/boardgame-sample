@@ -1,1 +1,1 @@
-# boardgame-sample
+# boardgame-sample-homepage
